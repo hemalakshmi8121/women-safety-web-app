@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #faff75, #9a7eff);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sos {
+    background-color: black;
+    color: white;
+}
+
+.call {
+    background-color: green;
+    color: white;
+}
+
+.share {
+    background-color: blue;
+    color: white;
+}
+
+#map {
+    margin-top: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}

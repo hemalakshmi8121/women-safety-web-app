@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Women Safety App</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🚨 Women Safety App</h1>
+
+<div class="card">
+    <button class="sos" onclick="sendSOS()">🚨 SOS Alert</button>
+    <button class="call" onclick="callPolice()">📞 Call Police</button>
+    <button class="share" onclick="shareLocation()">📍 Share Location</button>
+</div>
+
+<div class="card">
+    <p id="status">Location not fetched</p>
+</div>
+
+<div id="map"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
